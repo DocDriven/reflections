@@ -7,3 +7,19 @@ to-date with your remote repository?
 
     Maybe I am not interested in all changes made by other people because I consider them as not
     necessarily helpful.
+
+Describe the differences between forks, clones and branches. When would you use one instead of
+another?
+
+    Forks only exist in GitHub. It basically clones an existing directory to your personal
+    GitHub repository, while keeping a reference to the original. You use it to modify a project
+    to your personal liking and uses while keeping the original untouched. You can however create
+    a pull request for the original, so that the author can accept your proposed changes.
+
+    Clones create a copy of an existing repository, while automatically creating a reference to
+    where it was cloned from as remote origin/master. You use it to create a working copy on your
+    local machine.
+
+    Branches are tags in a repository, which refer to specific commits. Branches are used to test
+    new features while keeping a master branch that is always working intact. If the feature works,
+    you can merge the branch into another branch.
